@@ -36,7 +36,7 @@ function mais(){
             </li>
         </ul>
     </div>
-    <img src="${allBooks[i].img || '../images/noImg.jpg'}" alt="image the book">
+    <img src="${allBooks[i].img || './images/noImg.jpg'}" alt="image the book">
 </article>
     
     `
