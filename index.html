@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livros</title>
+    <!--- my css-->
+    <link rel="stylesheet" href="./style.css">
+    <!--- my  books css-->
+    <link rel="stylesheet" href="./style-books.css">
+    <!--- my import font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="search">
+                <input class="input-search" type="search" placeholder="Search"> <button class="btn-search"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+        </nav>
+    </header>
+    <main class="container">
+        <section class="books fantasy-books">
+            <article class="book">
+                <div class="information-book">
+                    <p class="book-title">The lord of Rings</p>
+                    <ul class="list-information">
+                        <li class="author">
+                            <label for="Author-name">Author:</label>
+                            <span class="author-name">JRR Tolkien</span>
+                        </li>
+                        <li class="date">
+                            <label for="date-book">Date:</label>
+                            <span class="date-book">July 29, 1954</span>
+                        </li>
+                        <li class="genres">
+                            <label for="genres-book">Genres:</label>
+                            <span class="genres-book">Fantasy</span>
+                        </li>
+                        <li class="type">
+                            <label for="type-book">Type:</label>
+                            <span class="type-book">E-book</span>
+                        </li>
+                    </ul>
+                </div>
+                <img src="./images/SenhorDosAneis.jpg" alt="image the book">
+            </article>
+        </section>
+
+
+
+        <button class="enviar" onclick="mais()">Enviar</button>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
